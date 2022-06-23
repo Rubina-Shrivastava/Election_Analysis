@@ -86,7 +86,7 @@ for candidate_name in candidate_votes:
     # print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")  
     candidate_results = (f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n") 
     
-    candidate_resultstotal = candidate_resultstotal + "....."+ candidate_results 
+    candidate_resultstotal = candidate_resultstotal + "#"+ candidate_results 
     print(candidate_results)
  
     # Determine winning vote count and candidate
@@ -102,8 +102,9 @@ for candidate_name in candidate_votes:
 
 winning_candidate_summary = (
     f"-------------------------\n"
-    f"Candidate Results: {candidate_resultstotal} \n"
+    f"Candidate Results: \n{candidate_resultstotal} \n"
     f"-------------------------\n"
+    f"Winner Details: \n"
     f"Winner: {winning_candidate}\n"
     f"Winning Vote Count: {winning_count:,}\n"
     f"Winning Percentage: {winning_percentage:.1f}%\n"
