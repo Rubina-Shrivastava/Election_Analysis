@@ -46,7 +46,9 @@ _---------------------------------------------------
  ### full summary of result is attacheted as txt file "election_analysis.txt"
  ____________________________________________
 
-   #### In image also u can see it the printed result on terminal/gitbash
+ ### In image also u can see it the printed result on terminal/gitbash
+ 
+ ![In image also u can see it the printed result on terminal/gitbash](https://github.com/Rubina-Shrivastava/Election_Analysis/blob/main/election_analysis.png)
 
    ____________________________________________________________-
 
